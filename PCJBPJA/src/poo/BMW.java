@@ -17,36 +17,7 @@ public static void main(String[] args) {
 	System.out.println("Desligar a BMW");
 	bmw.desligar();
 	System.out.println("Motor da BMW desligado!");
-	
-	Carro mustang = new Carro();
-	mustang.ano = 2023;
-	mustang.cor = "Azul";
-	
-	System.out.println("Carro: Mustang");
-	System.out.println("Ano: " + mustang.ano);
-	System.out.println("Cor: " + mustang.cor);
-	
-	mustang.ligar();
-	System.out.println("Mustang ligado!");
-	mustang.acelerar();
-	System.out.println("VRUUUUUUuuuuuu.");
-	mustang.desligar();
-	System.out.println("Motor do Mustang desligado!");
-	
-	Carro fusca = new Carro();
-	fusca.ano = 1978;
-	fusca.cor = "Branco";
-	
-	System.out.println("Carro: Fusca");
-	System.out.println("Ano: " + fusca.ano);
-	System.out.println("Ano: " + fusca.cor);
-	
-	fusca.ligar();
-	System.out.println("Fusca ligado!");
-	fusca.acelerar();
-	System.out.println("Vruuuuuuuu!");
-	fusca.desligar();
-	System.out.println("Motor do Fusca desligado!");
+	System.out.println("");
 	
 	
 }

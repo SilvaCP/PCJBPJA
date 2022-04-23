@@ -9,6 +9,8 @@ public class Ferrari {
 		System.out.println("Ano " + ferrari.ano);
 		System.out.println("Cor " + ferrari.cor);
 		ferrari.ligar();
+		System.out.println("Ferrari ligado!");
+		System.out.println("Acelerar!");
 		ferrari.acelerar();
 		ferrari.desligar();
 		System.out.println("Carro Ferrari desligado!");
